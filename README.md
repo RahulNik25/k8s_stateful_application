@@ -14,6 +14,7 @@ Deploy statefulsets
  - `kubectl apply -f mysql-statefulset.yaml`
 
 **Perform Mysql actions: create/insert/update/delete from mysql-0 pod**
+
 **Changes made into mysql-0 pod will reflect into other pods because of data replication tool**
 
 Deprovision resouces
